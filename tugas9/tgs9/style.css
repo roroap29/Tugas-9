@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Josefin+Sans&family=Mukta:wght@300&family=PT+Sans:ital@1&display=swap');
+
+body .html {
+    font-family: 'Concert One', cursive;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.login-form {
+    height: 500px;
+    width: 430px;
+    padding: 150px 35px;
+    background-color: white;
+    border: none;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+}
+
+.btn-login {
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+
+}
+
+.link {
+    color: #198754;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #198754;
+    text-decoration: none;
+}
+
+.error {
+    background: #F2DEDE;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
